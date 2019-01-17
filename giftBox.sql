@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Client :  localhost:3306
--- Généré le :  Sam 10 Novembre 2018 à 12:03
+-- Généré le :  Jeu 17 Janvier 2019 à 21:04
 -- Version du serveur :  5.7.24-0ubuntu0.18.04.1
 -- Version de PHP :  7.2.10-0ubuntu0.18.04.1
 
@@ -162,13 +162,13 @@ CREATE TABLE `prestation` (
 --
 
 INSERT INTO `prestation` (`id`, `nom`, `description`, `prix`, `img`, `status`, `id_cat`) VALUES
-(28, 'Champagne', 'Bouteille de champagne + flutes + jeux à gratter', 20, 'champagne.jpg', 1, 1),
+(28, 'Champagne', 'Bouteille de champagne + flutes + jeux à gratter', 20, 'champagne.jpg', 0, 1),
 (29, 'Musique', 'Partitions de piano à 4 mains', 25, 'musique.jpg', 1, 1),
 (30, 'Exposition', 'Visite guidée de l’exposition ‘REGARDER’ à la galerie Poirel', 14, 'poirelregarder.jpg', 1, 2),
 (31, 'Goûter', 'Goûter au FIFNL', 20, 'gouter.jpg', 1, 3),
 (32, 'Projection', 'Projection courts-métrages au FIFNL', 10, 'film.jpg', 1, 2),
 (33, 'Bouquet', 'Bouquet de roses et Mots de Marion Renaud', 16, 'rose.jpg', 1, 1),
-(34, 'Diner Stanislas', 'Diner à La Table du Bon Roi Stanislas (Apéritif /Entrée / Plat / Vin / Dessert / Café / Digestif)', 60, 'bonroi.jpg', 1, 3),
+(34, 'Diner Stanislas', 'Diner à La Table du Bon Roi Stanislas (Apéritif /Entrée / Plat / Vin / Dessert / Café / Digestif)', 60, 'bonroi.jpg', 0, 3),
 (35, 'Origami', 'Baguettes magiques en Origami en buvant un thé', 12, 'origami.jpg', 1, 3),
 (36, 'Livres', 'Livre bricolage avec petits-enfants + Roman', 24, 'bricolage.jpg', 1, 1),
 (37, 'Diner  Grand Rue ', 'Diner au Grand’Ru(e) (Apéritif / Entrée / Plat / Vin / Dessert / Café)', 59, 'grandrue.jpg', 1, 3),
@@ -221,9 +221,9 @@ CREATE TABLE `user` (
 INSERT INTO `user` (`id`, `fullname`, `username`, `password`, `level`) VALUES
 (1, 'mouad mounach', 'mouad', '$2y$10$iw7V/h5cBR.TexeQgcnJdu2NTwhq.VPkvB9ncvMDZO/WIqYjoMFtW', 100),
 (2, 'admin', 'admin', '$2y$10$Wh6Ao.tDGzoNRG9ZPGgpju/ivWrr.dTe6z94Vz0ck3on4D7tStpSy', 200),
-(3, 'oktay', 'oktay', '$2y$10$JAMWAqF6TYL5bM7BjBwfEebXSEFJppLwGijRXTpt6Zt0qehS7P0vG', 100),
 (4, 'ayoub', 'ayoub', '$2y$10$OGB67EpKBNGxuGxJYIMdfua/ebDfTe3O06s0/Mohu4Ca4HTJtWoU2', 100),
-(5, 'mounach', 'mounach', '$2y$10$jxpjbyhlKlk7hBDi6.2hY.JfcVC7SQAZAWwa2WwBP065mlycatTo6', 100);
+(5, 'mounach', 'mounach', '$2y$10$jxpjbyhlKlk7hBDi6.2hY.JfcVC7SQAZAWwa2WwBP065mlycatTo6', 100),
+(6, 'Issiaka', 'Issiaka', '$2y$10$jyrPRb0f5EdYhl36hFkHK.jA/RCQsqKe02RX243qHnHPReqtJTBb2', 100);
 
 --
 -- Index pour les tables exportées
@@ -303,7 +303,7 @@ ALTER TABLE `prestation`
 -- AUTO_INCREMENT pour la table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- Contraintes pour les tables exportées
 --
