@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../Gifbox">
+      <excludeFolder url="file://$MODULE_DIR$/../Gifbox/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/../Gifbox/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/../Gifbox/vendor/illuminate/container" />
+      <excludeFolder url="file://$MODULE_DIR$/../Gifbox/vendor/illuminate/contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/../Gifbox/vendor/illuminate/database" />
+      <excludeFolder url="file://$MODULE_DIR$/../Gifbox/vendor/illuminate/support" />
+      <excludeFolder url="file://$MODULE_DIR$/../Gifbox/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/../Gifbox/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/../Gifbox/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/../Gifbox/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/../Gifbox/vendor/symfony/translation" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
